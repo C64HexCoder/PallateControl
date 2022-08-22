@@ -1,0 +1,20 @@
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\bin\Debug\net6.0-windows\Pallate Controll Test.exe
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\bin\Debug\net6.0-windows\Pallate Controll Test.deps.json
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\bin\Debug\net6.0-windows\Pallate Controll Test.runtimeconfig.json
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\bin\Debug\net6.0-windows\Pallate Controll Test.dll
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\bin\Debug\net6.0-windows\Pallate Controll Test.pdb
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.csproj.AssemblyReference.cache
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate_Controll_Test.Form1.resources
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.csproj.GenerateResource.cache
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.AssemblyInfoInputs.cache
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.AssemblyInfo.cs
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.csproj.CoreCompileInputs.cache
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.dll
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\refint\Pallate Controll Test.dll
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.pdb
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.genruntimeconfig.cache
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\ref\Pallate Controll Test.dll
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\bin\Debug\net6.0-windows\Pallate Control.dll
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\bin\Debug\net6.0-windows\Pallate Control.pdb
+C:\Users\yossi\source\repos\Pallate Control\Pallate Controll Test\obj\Debug\net6.0-windows\Pallate Controll Test.csproj.CopyComplete

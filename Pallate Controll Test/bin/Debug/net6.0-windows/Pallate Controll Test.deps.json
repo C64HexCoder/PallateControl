@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Pallate Controll Test/1.0.0": {
+        "runtime": {
+          "Pallate Controll Test.dll": {}
+        }
+      },
+      "Pallate Control/1.0.0": {
+        "runtime": {
+          "Pallate Control.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pallate Controll Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pallate Control/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

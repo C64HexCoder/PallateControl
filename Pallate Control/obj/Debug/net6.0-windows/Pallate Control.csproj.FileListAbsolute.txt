@@ -1,0 +1,14 @@
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\bin\Debug\net6.0-windows\Pallate Control.deps.json
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\bin\Debug\net6.0-windows\Pallate Control.dll
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\bin\Debug\net6.0-windows\Pallate Control.pdb
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\Pallate Control.csproj.AssemblyReference.cache
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\Pallate_Control.Pallate.resources
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\Pallate Control.csproj.GenerateResource.cache
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\Pallate Control.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\Pallate Control.AssemblyInfoInputs.cache
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\Pallate Control.AssemblyInfo.cs
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\Pallate Control.csproj.CoreCompileInputs.cache
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\Pallate Control.dll
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\refint\Pallate Control.dll
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\Pallate Control.pdb
+C:\Users\yossi\source\repos\Pallate Control\Pallate Control\obj\Debug\net6.0-windows\ref\Pallate Control.dll
