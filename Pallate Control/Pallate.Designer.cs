@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.colorPanel = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.RedLbl = new System.Windows.Forms.Label();
+            this.GreenLbl = new System.Windows.Forms.Label();
+            this.BlueLbl = new System.Windows.Forms.Label();
             this.redNum = new System.Windows.Forms.NumericUpDown();
             this.greenNum = new System.Windows.Forms.NumericUpDown();
             this.blueNum = new System.Windows.Forms.NumericUpDown();
@@ -47,42 +47,42 @@
             this.colorPanel.AutoSize = true;
             this.colorPanel.Location = new System.Drawing.Point(0, 0);
             this.colorPanel.Name = "colorPanel";
-            this.colorPanel.Size = new System.Drawing.Size(500, 500);
+            this.colorPanel.Size = new System.Drawing.Size(497, 511);
             this.colorPanel.TabIndex = 0;
             this.colorPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.colorPanel_Paint);
             // 
-            // label1
+            // RedLbl
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(74, 572);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 25);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Red";
+            this.RedLbl.AutoSize = true;
+            this.RedLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.RedLbl.ForeColor = System.Drawing.Color.Red;
+            this.RedLbl.Location = new System.Drawing.Point(74, 572);
+            this.RedLbl.Name = "RedLbl";
+            this.RedLbl.Size = new System.Drawing.Size(45, 25);
+            this.RedLbl.TabIndex = 2;
+            this.RedLbl.Text = "Red";
             // 
-            // label2
+            // GreenLbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Lime;
-            this.label2.Location = new System.Drawing.Point(219, 572);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 25);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Green";
+            this.GreenLbl.AutoSize = true;
+            this.GreenLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.GreenLbl.ForeColor = System.Drawing.Color.Lime;
+            this.GreenLbl.Location = new System.Drawing.Point(219, 572);
+            this.GreenLbl.Name = "GreenLbl";
+            this.GreenLbl.Size = new System.Drawing.Size(63, 25);
+            this.GreenLbl.TabIndex = 3;
+            this.GreenLbl.Text = "Green";
             // 
-            // label3
+            // BlueLbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Blue;
-            this.label3.Location = new System.Drawing.Point(379, 572);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 25);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Blue";
+            this.BlueLbl.AutoSize = true;
+            this.BlueLbl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BlueLbl.ForeColor = System.Drawing.Color.Blue;
+            this.BlueLbl.Location = new System.Drawing.Point(379, 572);
+            this.BlueLbl.Name = "BlueLbl";
+            this.BlueLbl.Size = new System.Drawing.Size(50, 25);
+            this.BlueLbl.TabIndex = 4;
+            this.BlueLbl.Text = "Blue";
             // 
             // redNum
             // 
@@ -139,14 +139,12 @@
             this.Controls.Add(this.blueNum);
             this.Controls.Add(this.greenNum);
             this.Controls.Add(this.redNum);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.BlueLbl);
+            this.Controls.Add(this.GreenLbl);
+            this.Controls.Add(this.RedLbl);
             this.Controls.Add(this.colorPanel);
             this.Name = "Pallate";
-            this.Size = new System.Drawing.Size(500, 664);
-            this.SizeChanged += new System.EventHandler(this.Pallate_SizeChanged);
-            this.Resize += new System.EventHandler(this.Pallate_Resize);
+            this.Size = new System.Drawing.Size(500, 660);
             ((System.ComponentModel.ISupportInitialize)(this.redNum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenNum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blueNum)).EndInit();
@@ -159,9 +157,9 @@
         #endregion
 
         private Panel colorPanel;
-        private Label label1;
-        private Label label2;
-        private Label label3;
+        private Label RedLbl;
+        private Label GreenLbl;
+        private Label BlueLbl;
         private NumericUpDown redNum;
         private NumericUpDown greenNum;
         private NumericUpDown blueNum;

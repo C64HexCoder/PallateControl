@@ -15,6 +15,25 @@ namespace Pallate_Control
         public Color _SelectedColor;
         public int SelectedColorARGB;
         int[] ColorDialogCustomColors;
+        byte _Red, _Green, _Blue;
+        public bool RGBVisible
+        {
+            set
+            {
+                redNum.Visible = value;
+                greenNum.Visible = value;
+                blueNum.Visible = value;
+                RedLbl.Visible = value;
+                GreenLbl.Visible = value;
+                BlueLbl.Visible = value;
+            }
+            get { return redNum.Visible; }
+        }
+
+        byte Red => _Red;
+        byte Green => _Green;
+        byte Blue => _Blue;
+            
 
         public Color SelectedColor
         {
@@ -108,18 +127,6 @@ namespace Pallate_Control
             redNum.Value = SelectedColor.R;
             greenNum.Value = SelectedColor.G;
             blueNum.Value = SelectedColor.B;
-        }
-
-        private void Pallate_SizeChanged(object sender, EventArgs e)
-        {
-            colorPanel.Controls.Clear();
-            colorPanel.Refresh();
-        }
-
-        private void Pallate_Resize(object sender, EventArgs e)
-        {
-            colorPanel.Controls.Clear();
-            colorPanel.Refresh();
         }
     }
 }
