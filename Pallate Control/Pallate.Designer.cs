@@ -45,11 +45,14 @@
             // colorPanel
             // 
             this.colorPanel.AutoSize = true;
+            this.colorPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.colorPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.colorPanel.Location = new System.Drawing.Point(0, 0);
             this.colorPanel.Name = "colorPanel";
-            this.colorPanel.Size = new System.Drawing.Size(497, 511);
+            this.colorPanel.Size = new System.Drawing.Size(500, 636);
             this.colorPanel.TabIndex = 0;
             this.colorPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.colorPanel_Paint);
+            this.colorPanel.Resize += new System.EventHandler(this.colorPanel_Resize);
             // 
             // RedLbl
             // 
@@ -128,6 +131,7 @@
             this.selectedColorPb.Location = new System.Drawing.Point(3, 517);
             this.selectedColorPb.Name = "selectedColorPb";
             this.selectedColorPb.Size = new System.Drawing.Size(494, 52);
+            this.selectedColorPb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.selectedColorPb.TabIndex = 8;
             this.selectedColorPb.TabStop = false;
             // 
@@ -135,6 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.Controls.Add(this.selectedColorPb);
             this.Controls.Add(this.blueNum);
             this.Controls.Add(this.greenNum);
@@ -144,7 +149,7 @@
             this.Controls.Add(this.RedLbl);
             this.Controls.Add(this.colorPanel);
             this.Name = "Pallate";
-            this.Size = new System.Drawing.Size(500, 660);
+            this.Size = new System.Drawing.Size(500, 636);
             ((System.ComponentModel.ISupportInitialize)(this.redNum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.greenNum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.blueNum)).EndInit();
